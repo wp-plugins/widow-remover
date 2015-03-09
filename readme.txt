@@ -1,6 +1,6 @@
 === Widow Remover ===
 Contributors: axionmedialab
-Tags: widow removal, widows, non-breaking space
+Tags: widow removal, remove widows, widows, non-breaking space
 Requires at least: 3.0
 Tested up to: 4.1
 Stable tag: 1.0
@@ -19,8 +19,11 @@ The plugin works out of the box. No setup or configuration is necessary. Simply 
 
 == Installation ==
 Upload \'widow-remover\' to the \'/wp-content/plugins/\' directory
+
 Activate the plugin through the \'Plugins\' menu in WordPress
+
 The plugin is up and running properly with no additional steps
+
 Note: If you are using a caching plugin you may have to clear the cache in order for the plugin to start working.
 
 == Upgrade Notice ==
@@ -32,3 +35,4 @@ Note: If you are using a caching plugin you may have to clear the cache in order
 == Frequently Asked Questions ==
 
 == Donations ==
+
