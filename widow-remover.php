@@ -4,7 +4,7 @@ Plugin Name: Widow Remover
 Description: Removes widows from any content in the content editor or title by adding non-breaking spaces where necessary. Options for use with Advanced Custom&nbsp;Fields.
 Author: Axion Media Lab
 Author URI: http://axionmedialab.com
-Version: 1.0
+Version: 1.3
 */
 
 /*
