@@ -16,12 +16,15 @@ function aml_remove_widow($content) {
 				if (next($arra) && is_string($element)) {
 				    $minWords = 3;
 			        $return = $element;
-			        $arr = explode(' ',$element);
-			        if(count($arr) >= $minWords) {
-			            $arr[count($arr) - 2].= '&#160;'.$arr[count($arr) - 1];
-			            array_pop($arr);
-			            $element = implode(' ',$arr);
-			        }
+			        //if $element contains < or/and > ?
+			        if (strpos($element,'">') == false && strpos($element,"'>") == false && strpos($element,'" >') == false && strpos($element,"' >") == false) {
+				        $arr = explode(' ',$element);
+				        if(count($arr) >= $minWords) {
+				            $arr[count($arr) - 2].= '&#160;'.$arr[count($arr) - 1];
+				            array_pop($arr);
+				            $element = implode(' ',$arr);
+				        }
+				    }
 			    }
 			}
 			$elements = implode('</', $elements);
